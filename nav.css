@@ -1,0 +1,14 @@
+nav > ul > li{
+    display: inline;
+    margin-right: 300px;
+}
+nav li > a {
+    text-decoration: none ;
+}
+img{
+    width: 250px;
+}
+footer{
+    text-align: center;
+    bottom: 1%;
+}
