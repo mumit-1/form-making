@@ -1,9 +1,29 @@
-nav > ul > li{
-    display: inline;
-    margin-right: 300px;
+/* *{background-color: rgb(255, 174, 174);} */
+ul{
+    display: flex;
+    align-items: stretch;
 }
-nav li > a {
+
+nav  ul  li{
+    /* display: inline; */
+    list-style: none;
+    margin-right: 20%;
+    transition: 1s;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+nav  ul  li  a {
     text-decoration: none ;
+    color: rgb(0, 247, 255);
+    text-shadow: 1px 0.5px 0.1px rgba(0, 242, 255, 0.359);
+    
+    
+}
+li:hover{
+    background-color: rgb(255, 0, 0);
+    
+    
 }
 img{
     width: 250px;
@@ -12,3 +32,35 @@ footer{
     text-align: center;
     bottom: 1%;
 }
+nav .dropdown
+{
+    position: absolute;
+    display: none;
+    padding-left: 15px;
+    /* text-align: center; */
+    background-color: brown;
+    border-radius: 5px;   
+}
+li:hover > .dropdown{
+    display: block;
+}
+.cursor{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
+/* nav{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237,0.37);
+    border: 2px solid rgba(227, 228, 237,0.37);
+} */ 
+ /* this will help with a better view in navbar  */
+
+
+
+ /* there is noticable part about attribute in which tag they may work (example:hover does't work in <a> tag) we have to careful to use attribute in tag  */
+
+
+
+ /* this specific ">" arrow defines a special rule which is it can indicate the first attiribute not the all attribute at very first time */
