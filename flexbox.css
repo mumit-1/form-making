@@ -1,0 +1,33 @@
+.parent{
+    display: flex;
+    background-color: red;
+    height: 350px;
+    padding: 25x;
+    gap:30px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: end;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* this wrap flex works like they will make every text or content in the box or block material if you see the on webpage. if dont give the wrap it will overflow the box and the extra content will go out of the box */
+}
+.child {
+    background: lightcoral;
+    border: 2px solid black;
+    font-size: 30px;
+   
+    padding: 20px;
+    border-radius: 10px;
+    /* display: inline; */
+    /* width: 400px; */
+    /* height: 60px; */
+    
+    /* there is a important thing. width & height can't make change when the div is inline display mode.  in display flex mode only height can make a change */
+  
+  
+    /* display:inline & display flex works same but the main difference they make because of "block & inline differences". suggestion is that display flex is more4 useful and cotrol-able */
+  }
+
+

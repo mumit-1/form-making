@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+    <style>
+        .mango{
+            width: 300px;
+            height: 300px;
+            border: 5px solid red;
+            overflow-y: auto;
+            
+        }
+        
+        .head{
+            width: 200px;
+            border: 2px solid black;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* text-overflow: clip;    this is default settings of text-overflow settings */
+        }
+      
+        .orange{
+            width: 200px;
+            height: 200px;
+           border: 5px solid ;
+            
+        }
+        .apple{
+            background-color: tomato;
+            width: 200px;
+            height: 50px;
+            
+            gap: 30px;
+        }
+        .orange{
+            background-color: blue;
+            /* transform: scale(0.25, 0.5) rotate(45deg); */
+            transform: translateX(100px) rotateX(-45deg);
+            transition: 1s;
+            transform: rotate3d(1, 1, 1, -95deg);
+            
+            
+        }
+        .new{
+            margin-bottom: 500px;
+        }
+        .orange:hover{
+            transform:scale(1.2) rotate(0deg);
+            
+        }
+        button{
+          
+            width: 100px;
+            height: 40px;
+            background-color: rgb(255, 77, 77);
+            border: 0;
+            
+            color: aliceblue;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+        .btn1{
+            transition: width 10s linear 2s;
+            
+        }
+        .btn2{
+            transition: width 2s ease-in-out;
+        }
+        .btn1:hover{
+            width: 380px;
+        }
+        .btn2:hover{
+            width: 380px;    
+        }
+    </style>
+</head>
+<body>
+    <header><p title="fuck you kid" class="head">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, voluptas.</p></header>
+    <div class="mango"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi suscipit atque minima molestias odit pariatur eius quidem maxime? Adipisci itaque soluta fuga modi sapiente laborum quas ipsam labore veritatis iste hic vero, tempora, obcaecati accusantium ab molestiae, quia maxime? Earum ad neque unde quisquam aspernatur iusto hic ipsa sint recusandae non eius illum sapiente veniam similique atque animi, impedit vel! Molestiae eum magni commodi incidunt odio facilis blanditiis nulla odit animi deserunt laboriosam natus quod fuga facere sunt repellat corrupti vero a, omnis labore, enim minus rerum. Sequi porro voluptatum, eos consectetur distinctio esse sunt officiis dignissimos temporibus ab nobis dolor laboriosam illo! Assumenda accusantium ab explicabo culpa, natus quae suscipit ullam nobis corrupti adipisci dolorem ad! Quidem veritatis error officiis dignissimos incidunt quisquam repellendus enim beatae recusandae commodi corporis, culpa, quae, aut vitae nobis! Minima necessitatibus omnis totam maiores deleniti aliquam reiciendis obcaecati dolor facilis maxime cupiditate labore, possimus impedit voluptate quam a doloribus. Et, explicabo mollitia nemo libero hic laboriosam? Sint ipsam harum labore dolorum iste, dicta tenetur dolores velit perspiciatis maiores recusandae omnis aperiam et quis sed officiis neque, tempore deserunt odit animi ab laboriosam. Quia qui doloremque quo, repellendus nemo ipsa consectetur vero inventore quasi obcaecati!</p></div>
+    <div class="mango"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi suscipit atque minima molestias odit pariatur eius quidem maxime? Adipisci itaque soluta fuga modi sapiente laborum quas ipsam labore veritatis iste hic vero, tempora, obcaecati accusantium ab molestiae, quia maxime? Earum ad neque unde quisquam aspernatur iusto hic ipsa sint recusandae non eius illum sapiente veniam similique atque animi, impedit vel! Molestiae eum magni commodi incidunt odio facilis blanditiis nulla odit animi deserunt laboriosam natus quod fuga facere sunt repellat corrupti vero a, omnis labore, enim minus rerum. Sequi porro voluptatum, eos consectetur distinctio esse sunt officiis dignissimos temporibus ab nobis dolor laboriosam illo! Assumenda accusantium ab explicabo culpa, natus quae suscipit ullam nobis corrupti adipisci dolorem ad! Quidem veritatis error officiis dignissimos incidunt quisquam repellendus enim beatae recusandae commodi corporis, culpa, quae, aut vitae nobis! Minima necessitatibus omnis totam maiores deleniti aliquam reiciendis obcaecati dolor facilis maxime cupiditate labore, possimus impedit voluptate quam a doloribus. Et, explicabo mollitia nemo libero hic laboriosam? Sint ipsam harum labore dolorum iste, dicta tenetur dolores velit perspiciatis maiores recusandae omnis aperiam et quis sed officiis neque, tempore deserunt odit animi ab laboriosam. Quia qui doloremque quo, repellendus nemo ipsa consectetur vero inventore quasi obcaecati!</p></div>
+    <main><div class="new">
+        
+            <div class="apple">
+                <div class="orange">item</div>
+            </div>
+            <div class="apple">
+                <div class="orange">item</div>
+            </div>
+           <div class="apple">
+                <div class="orange">item</div>
+            </div>
+    </div>
+    </main>
+    <footer>
+        <button class="btn1">shop it</button>
+    </footer>
+    <footer>
+        <button class="btn2">shop it</button>
+    </footer>
+</body>
+
+</html>
