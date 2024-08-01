@@ -4,77 +4,67 @@
     box-shadow: 0px 0px 30px rgba(227, 228, 237,0.37);
     border: 2px solid rgba(227, 228, 237,0.37);
 } */
-ul{
-    display: flex;
-    
+ul {
+  display: flex;
 }
-nav  ul  li{
-    /* display: inline; */
-    list-style: none;
-    margin-right: 20%;
-    transition: 1s;
-    padding: 10px;
-    border-radius: 5px;
-    
+nav ul li {
+  /* display: inline; */
+  list-style: none;
+  margin-right: 20%;
+  transition: 1s;
+  padding: 10px;
+  border-radius: 5px;
 }
-nav  ul  li  a {
-    text-decoration: none ;
-    color: rgb(0, 247, 255);
-    text-shadow: 1px 0.5px 0.1px rgba(0, 242, 255, 0.359);
-    
-    
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 247, 255);
+  text-shadow: 1px 0.5px 0.1px rgba(0, 242, 255, 0.359);
 }
-li:hover{
-    background-color: rgb(255, 0, 0);
-    
-    
+li:hover {
+  background-color: rgb(255, 0, 0);
 }
-img{
-    width: 250px;
+img {
+  width: 250px;
 }
-footer{
-    text-align: center;
-    bottom: 1%;
+footer {
+  text-align: center;
+  bottom: 1%;
 }
-nav .dropdown
-{
-    position: absolute;
-    display: none;
-    padding-left: 15px;
-    /* text-align: center; */
-    background-color: brown;
-    border-radius: 5px;   
+nav .dropdown {
+  position: absolute;
+  display: none;
+  padding-left: 15px;
+  /* text-align: center; */
+  background-color: brown;
+  border-radius: 5px;
 }
-li:hover > .dropdown{
-    display: block;
-    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+li:hover > .dropdown {
+  display: block;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
-.cursor{
-    cursor: pointer;
+.cursor {
+  cursor: pointer;
 }
 
-form{
-    backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 40px rgb(0, 0, 0);
-    border: 2px solid rgba(252, 252, 252, 0.192);
-    
-     margin-left: 5%;
-     margin-bottom: 5%;
-     margin-right: 5%;
-    padding: 10px;
-    border-radius: 10px;
-    /* display: block;
+form {
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 40px rgb(0, 0, 0);
+  border: 2px solid rgba(252, 252, 252, 0.192);
+
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  /* display: block;
     align-items: end; */
 }
-div{
-    
-    
-    display: flex;
-    border: 2px solid red;
-   
-    align-items: center;
-    justify-content: space-around;
-    
+div {
+  display: flex;
+  border: 2px solid red;
+
+  align-items: center;
+  justify-content: space-around;
 }
 /* 
     backdrop-filter: blur(30px);
@@ -84,10 +74,6 @@ div{
  
     this will help with a better view in navbar  */
 
+/* there is noticable part about attribute in which tag they may work (example:hover does't work in <a> tag) we have to careful to use attribute in tag  */
 
-
- /* there is noticable part about attribute in which tag they may work (example:hover does't work in <a> tag) we have to careful to use attribute in tag  */
-
-
-
- /* this specific ">" arrow defines a special rule which is it can indicate the first attiribute not the all attribute at very first time */
+/* this specific ">" arrow defines a special rule which is it can indicate the first attiribute not the all attribute at very first time */

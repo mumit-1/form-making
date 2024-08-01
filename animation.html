@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>animation</title>
     <style>
         @keyframes ping-pong {
-            from{
+            from {
                 left: 0;
             }
-            to{
+
+            to {
                 left: 400px;
-               
-                background-color:brown ;
+
+                background-color: brown;
             }
         }
+
         @keyframes apple {
-            0%{
-               top: 0;
-               left: 0; 
+            0% {
+                top: 0;
+                left: 0;
             }
-            25%{
+
+            25% {
                 top: 400px;
                 left: 100px;
             }
-            50%{
+
+            50% {
                 top: 0;
                 left: 200px;
             }
-            100%{
+
+            100% {
                 top: 400px;
                 left: 300px;
             }
         }
-        .stage{
+
+        .stage {
             width: 400px;
             height: 500px;
             background-color: salmon;
         }
-        .ball{
+
+        .ball {
             border-radius: 50%;
             width: 100px;
             height: 100px;
@@ -49,8 +57,12 @@
         }
     </style>
 </head>
+
 <body>
-    <div class="stage"><div class="ball"></div></div>
-    
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+
 </body>
+
 </html>

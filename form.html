@@ -1,89 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="nav.css">
-    <title>form er jnno</title>
-    <style>
-      label {
-        display: block;
-        margin-left: 1%;
-      }
-      fieldset {
-        margin-left: 1%;
-      }
-    </style>
-  </head>
-  <body>
-    <header></header>
-    <main>
-      <section>
-        <h2>fill the form</h2>
-        <form>
-          <label for="name"> your name:
-            <!-- this label tag specfics nothing special. without it , it remains the same  -->
-            <input type="text" id="name" placeholder="name" />
-            <!-- <this id attribute shows the specific information he needs from the user> -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="nav.css">
+  <title>form er jnno</title>
+  <style>
+    label {
+      display: block;
+      margin-left: 1%;
+    }
+
+    fieldset {
+      margin-left: 1%;
+    }
+  </style>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <section>
+      <h2>fill the form</h2>
+      <form>
+        <label for="name"> your name:
+          <!-- this label tag specfics nothing special. without it , it remains the same  -->
+          <input type="text" id="name" placeholder="name" />
+          <!-- <this id attribute shows the specific information he needs from the user> -->
+        </label>
+        <label for="email">your email
+          <input type="email" id="email" placeholder="email dee" />
+        </label>
+        <label for="phone">phone number
+          <input type="text" id="phone" placeholder="phone" />
+        </label>
+      </form>
+      <form>
+        <fieldset>
+          <!-- this tag made the real box  around the text -->
+          <legend>
+            <!--it is kinda special design -->
+            pick one
+          </legend>
+          <label for="BMW">
+            <input type="radio" name="car" id="BMW" class="pick" />BMW
+            <!-- <this name attribute can make pick only one if i put same title[example:car] to every name attribute> | <this name attribute behavior like this because of input type attribute which is radio> -->
           </label>
-          <label for="email">your email
-            <input type="email" id="email" placeholder="email dee" />
+          <label for="Porsche">
+            <input type="radio" name="car" id="Porsche" class="pick" />Porsche
           </label>
-          <label for="phone">phone number
-            <input type="text" id="phone" placeholder="phone" />
+          <label for="Bugatti">
+            <input type="radio" name="car" id="Bugatti" class="pick" />Bugatti
           </label>
-        </form>
-        <form >
-          <fieldset>
-            <!-- this tag made the real box  around the text -->
-            <legend>
-              <!--it is kinda special design -->
-              pick one
-            </legend>
-            <label for="BMW" >
-              <input type="radio" name="car" id="BMW" class="pick"/>BMW
-              <!-- <this name attribute can make pick only one if i put same title[example:car] to every name attribute> | <this name attribute behavior like this because of input type attribute which is radio> -->
-            </label>
-            <label for="Porsche" >
-              <input type="radio" name="car" id="Porsche" class="pick"/>Porsche
-            </label>
-            <label for="Bugatti" >
-              <input type="radio" name="car" id="Bugatti" class="pick"/>Bugatti
-            </label>
-          </fieldset>
-          <fieldset>
-            <legend>pick bike</legend>
-            <label for="R15" class="pick">
-              <input type="checkbox" name="bike" id="R15" />R15
-              <!-- <this name attribute can pick more then one because it is in input type checkbox> -->
-            </label>
-            <label for="Apache" class="pick">
-              <input type="checkbox" name="bike" id="Apache" />Apache
-            </label>
-          </fieldset>
-          <fieldset>
-            <legend>what do u like</legend>
-            <textarea
-              name=""
-              id=""
-              cols="15"
-              rows="15"
-              placeholder="tell us"
-            ></textarea>
-            <!-- it can make a box of writing something which can be a review -->
-          </fieldset>
-          <input type="reset" value="reset" />
-          <!--it reset the form -->
-          <input type="submit" value="log in" title="tip mar vai" />
-          <!-- this title makes something say on the button or iput type submit also -->
-          <button title="mairo na">tip maro</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iste, recusandae et corrupti voluptatem molestiae nulla sed sapiente reiciendis eum!
-        </div>
-    </footer>
-  </body>
+        </fieldset>
+        <fieldset>
+          <legend>pick bike</legend>
+          <label for="R15" class="pick">
+            <input type="checkbox" name="bike" id="R15" />R15
+            <!-- <this name attribute can pick more then one because it is in input type checkbox> -->
+          </label>
+          <label for="Apache" class="pick">
+            <input type="checkbox" name="bike" id="Apache" />Apache
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>what do u like</legend>
+          <textarea name="" id="" cols="15" rows="15" placeholder="tell us"></textarea>
+          <!-- it can make a box of writing something which can be a review -->
+        </fieldset>
+        <input type="reset" value="reset" />
+        <!--it reset the form -->
+        <input type="submit" value="log in" title="tip mar vai" />
+        <!-- this title makes something say on the button or iput type submit also -->
+        <button title="mairo na">tip maro</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa iste, recusandae et corrupti voluptatem molestiae
+      nulla sed sapiente reiciendis eum!
+    </div>
+  </footer>
+</body>
+
 </html>
